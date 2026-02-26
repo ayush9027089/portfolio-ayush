@@ -14,7 +14,7 @@ const HeroIcon = ({ icon: Icon }) => (
 
 const Home = () => {
   return (
-    <main className="relative z-10 overflow-hidden bg-gray-50 py-24 md:py-32">
+    <main className="relative z-10 flex min-h-screen flex-col items-center justify-center overflow-hidden bg-gray-50 py-24 md:py-32">
       <div className="container mx-auto px-4 text-center">
         
         {/* Floating background clouds */}

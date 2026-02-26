@@ -33,7 +33,7 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-x-6 gap-y-3">
               <p className="flex items-center gap-2 text-gray-400">
                 {/* <FaHtml5 className="text-teal-400" /> HTML */}
-                <span className="text-teal-400">&lt;&gt;</span> HTML
+                <span className="text-teal-400">&lt; &gt;</span> HTML
               </p>
               <p className="flex items-center gap-2 text-gray-400">
                 {/* <SiTailwindcss className="text-teal-400" /> Tailwind CSS */}
@@ -41,11 +41,11 @@ const Skills = () => {
               </p>
               <p className="flex items-center gap-2 text-gray-400">
                 {/* <FaReact className="text-teal-400" /> React */}
-                <span className="text-teal-400">&lt;&gt;</span> React
+                <span className="text-teal-400">&lt; &gt;</span> React
               </p>
               <p className="flex items-center gap-2 text-gray-400">
                 {/* <SiNextdotjs className="text-teal-400" /> Next.js */}
-                <span className="text-teal-400">&lt;&gt;</span> Next.js
+                <span className="text-teal-400">&lt; &gt;</span> Next.js
               </p>
             </div>
           </div>
@@ -64,21 +64,18 @@ const Skills = () => {
             {/* Skill list */}
             <div className="grid grid-cols-2 gap-x-6 gap-y-3">
               <p className="flex items-center gap-2 text-gray-400">
-                {/* <FaNodeJs className="text-teal-400" /> Node.js */}
-                <span className="text-teal-400">&lt;&gt;</span> Node.js
+                {/* <FaNodeJs className="text-teal-400" /> Spring Java */}
+                <span className="text-teal-400">&lt; &gt;</span> Spring Java
               </p>
               <p className="flex items-center gap-2 text-gray-400">
-                {/* <SiExpress className="text-teal-400" /> Express.js */}
-                <span className="text-teal-400">&lt;&gt;</span> Express.js
+                {/* <SiExpress className="text-teal-400" /> Microservices */}
+                <span className="text-teal-400">&lt; &gt;</span> Microservices
               </p>
               <p className="flex items-center gap-2 text-gray-400">
                 {/* <SiMysql className="text-teal-400" /> MySQL */}
-                <span className="text-teal-400">🗄️</span> MySQL
+                <span className="text-teal-400">🗄️</span> MySQL And MongoDb
               </p>
-              <p className="flex items-center gap-2 text-gray-400">
-                {/* <SiPostgresql className="text-teal-400" /> PostgreSQL */}
-                <span className="text-teal-400">🗄️</span> PostgreSQL
-              </p>
+              
             </div>
           </div>
 
@@ -109,14 +106,11 @@ const Skills = () => {
               </p>
               <p className="flex items-center gap-2 text-gray-400">
                 {/* <SiVisualstudiocode className="text-teal-400" /> VS Code */}
-                <span className="text-teal-400">&gt;_</span> VS Code
+                <span className="text-teal-400">&gt;</span> VS Code
               </p>
               <p className="flex items-center gap-2 text-gray-400">
                 {/* <FaAws className="text-teal-400" /> AWS */}
                 <span className="text-teal-400">☁️</span> AWS
-              </p>
-              <p className="flex items-center gap-2 text-gray-400">
-                <span className="text-teal-400">&gt;_</span> RED (Robot Editor)
               </p>
             </div>
           </div>
@@ -135,15 +129,15 @@ const Skills = () => {
             {/* Skill list */}
             <div className="grid grid-cols-2 gap-x-6 gap-y-3">
               <p className="flex items-center gap-2 text-gray-400">
-                {/* <SiElasticsearch className="text-teal-400" /> Elasticsearch */}
-                <span className="text-teal-400">🔍</span> Elasticsearch
+                {/* <SiElasticsearch className="text-teal-400" /> Kaggle */}
+                <span className="text-teal-400">🔍</span> Kaggle
               </p>
               <p className="flex items-center gap-2 text-gray-400">
-                {/* <SiKibana className="text-teal-400" /> Kibana */}
-                <span className="text-teal-400">📊</span> Kibana
+                {/* <SiKibana className="text-teal-400" /> R Language */}
+                <span className="text-teal-400">📊</span> R Language
               </p>
               <p className="flex items-center gap-2 text-gray-400">
-                <span className="text-teal-400">&lt;&gt;</span> Kibana Query Language
+                <span className="text-teal-400">&lt; &gt;</span> Python
               </p>
             </div>
           </div>

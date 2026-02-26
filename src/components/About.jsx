@@ -13,7 +13,7 @@ const About = () => {
         About Me
       </h1>
       <p className="text-xl text-gray-400">
-        Machine Learning Specialist , Data Analyst, and code explorer.
+        Data Analyst , Developer , Idea explorer
       </p>
     </div>
 
@@ -42,7 +42,7 @@ const About = () => {
             In a real app, you might use an array.map() to generate them.
           */}
           <span className="bg-gray-800 text-gray-300 text-sm px-4 py-2 rounded-full">
-            Machine Learning
+            Data Analytics
           </span>
           <span className="bg-gray-800 text-gray-300 text-sm px-4 py-2 rounded-full">
             Web Development
