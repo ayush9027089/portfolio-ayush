@@ -1,0 +1,11 @@
+To deploy a react web app to git hub we need install 'gh-pages' through npm and then update your package.json and vite.config.js
+In vite.config.js we need to add base url : /portfolio-ayush/
+In package.json we need to add "homepage": "https://ayush9027089.github.io/portfolio-ayush/", in scripts  "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+
+Then run npm run deploy 
+
+Then go to change the gitHub pages and select the 
+Source: Deploy from a branch
+Branch: gh-pages
+Folder: / (root)
