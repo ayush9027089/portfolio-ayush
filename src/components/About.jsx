@@ -1,6 +1,7 @@
-import React from "react";
+import {React,useState } from "react";
 
 const About = () => {
+  const [imageError, setImageError] = useState(false);
   return (
    // This component assumes you have Tailwind CSS configured in your project.
 
@@ -28,12 +29,16 @@ const About = () => {
         
         {/* Profile Image with Glow Effect */}
         <div className="mb-6">
-          <img 
-            src="public/profilepic.jpg" 
-            alt="Aditya" 
-            // Applied a teal shadow to mimic the glow from the screenshot
-            className="w-56 h-56 rounded-full object-cover shadow-2xl shadow-teal-500/40" 
-          />
+              {!imageError ? (
+                <img
+                  src="public/profilepic.jpg"
+                  alt="Aditya"
+                  className="w-full h-full object-cover"
+                  onError={() => setImageError(true)}
+                />
+              ) : (
+                <span>Ayush Dubey</span>
+              )}
         </div>
 
         {/* Skill Tags */}
