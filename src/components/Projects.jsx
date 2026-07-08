@@ -5,25 +5,25 @@ const Projects = () => {
   // 1. DEFINING THE DATA LOGIC
   const projectsData = [
     {
-      title: "Microplastic Sensor",
-      description: "A hardware-based sensor utilizing ML models for image analysis to detect microplastics in real-time.",
-      tags: ["Python", "OpenCV", "IoT", "React"],
-      githubLink: "https://github.com/ayush9027089/Microplastics",
-      liveLink: "https://www.linkedin.com/in/ayushkrdubey"
+      title: "ATS Score Checker",
+      description: "A web application for checking ATS scores of resumes.",
+      tags: ["Spring Boot", "Java", "React", "Tailwind"],
+      VideoLink: "https://drive.google.com/file/d/1-eqzn_EXN3kChNcxFnK5v7dQ3oVQ4c83/view",
+      liveLink: "https://ats-checker-klvd.onrender.com/"
     },
     {
-      title: "PlacementEase",
-      description: "A comprehensive Spring Boot and React application for managing student placements and simplifying college recruitment.",
+      title: "Social Media Handler",
+      description: "A full-stack social media management application allowing users to schedule posts, track engagement, and manage multiple accounts.",
       tags: ["Spring Boot", "React", "MySQL", "Tailwind"],
-      githubLink: "#",
-      liveLink: "https://www.linkedin.com/in/ayushkrdubey"
+      VideoLink: "https://drive.google.com/file/d/1jyWZGln1xRRMHI68ctqK-rlzt93lPH1h/view",
+      liveLink: "https://social-media-handler-frontend.onrender.com/"
     },
     {
-      title: "Team Ashankhya Portfolio",
-      description: "Official team website for hackathon group Ashankhya, featuring member showcases and project timelines.",
-      tags: ["React", "Framer Motion", "UI/UX"],
-      githubLink: "#",
-      liveLink: "https://www.linkedin.com/in/ayushkrdubey"
+      title: "Microplastic Detection Model",
+      description: "A machine learning model for detecting microplastics in water samples.",
+      tags: ["Python", "TensorFlow", "OpenCV", "Machine Learning"],
+      VideoLink: "https://github.com/ayush9027089/Microplastic-Detection-Model",
+      liveLink: "#"
     }
   ];
 
@@ -53,7 +53,7 @@ const Projects = () => {
                     <Code size={24} />
                   </div>
                   <div className="flex gap-4">
-                    <a href={project.githubLink} className="text-gray-400 hover:text-white transition-colors">
+                    <a href={project.VideoLink} className="text-gray-400 hover:text-white transition-colors">
                       <Github size={20} />
                     </a>
                     <a href={project.liveLink} className="text-gray-400 hover:text-white transition-colors">
