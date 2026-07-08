@@ -1,5 +1,5 @@
 import React from 'react';
-import { Github, ExternalLink, Code } from 'lucide-react';
+import { ExternalLink, Code , Video } from 'lucide-react';
 
 const Projects = () => {
   // 1. DEFINING THE DATA LOGIC
@@ -54,7 +54,7 @@ const Projects = () => {
                   </div>
                   <div className="flex gap-4">
                     <a href={project.VideoLink} className="text-gray-400 hover:text-white transition-colors">
-                      <Github size={20} />
+                      <Video size={20} />
                     </a>
                     <a href={project.liveLink} className="text-gray-400 hover:text-white transition-colors">
                       <ExternalLink size={20} />
