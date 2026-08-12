@@ -28,7 +28,7 @@ const About = () => {
       <div className="lg:col-span-1 flex flex-col items-center">
         
         {/* Profile Image with Glow Effect */}
-        <div className="mb-6">
+        <div className="mb-4 relative w-48 h-48 rounded-full overflow-hidden shadow-lg shadow-teal-500/20">
               {!imageError ? (
                 <img
                   src="public/profilepic.jpg"
