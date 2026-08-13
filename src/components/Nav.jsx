@@ -99,7 +99,7 @@ const Nav = () => {
 
           {/* Social Icons */}
           <div className="hidden items-center space-x-4 md:flex">
-            <SocialLink href="https://github.com/ayush9027089">
+            <SocialLink href="https://github.com/ayush9027089/Ayush-Kumar-Dubey">
               <Github className="h-5 w-5" />
             </SocialLink>
             <SocialLink href="https://www.linkedin.com/in/ayushkrdubey/">
