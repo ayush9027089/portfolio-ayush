@@ -28,6 +28,14 @@ const Experience = () => {
       date: "Sep 2025 - Nov 2025",
       description: "Led a cross-functional team of CS and Electronics students to develop a sensor-based prototype for detecting microplastic pollution. Integrated ESP32 microcontrollers with machine learning models for real-time environmental data analysis.",
       skills: ["Machine Learning", "IoT (ESP32)", "Python", "Hardware Integration"]
+    },
+    {
+      id: 4,
+      role: "Software Engineer Intern",
+      company: "Tech Mahindra",
+      date: "Jun 2026 - Sept 2026",
+      description: "Assisted in developing and testing web applications using Java and Spring Framework. Collaborated with senior developers to implement new features and resolve technical issues.",
+      skills: ["Python", "Agentic AI Integration","Development of AI Agents for Task Automation"]
     }
   ];
 

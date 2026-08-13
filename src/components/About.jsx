@@ -47,13 +47,16 @@ const About = () => {
             In a real app, you might use an array.map() to generate them.
           */}
           <span className="bg-gray-800 text-gray-300 text-sm px-4 py-2 rounded-full">
-            Data Analytics
+            Java Software Engineer
           </span>
           <span className="bg-gray-800 text-gray-300 text-sm px-4 py-2 rounded-full">
-            Web Development
+            Software Development
           </span>
           <span className="bg-gray-800 text-gray-300 text-sm px-4 py-2 rounded-full">
-            Backend Developer
+            AI Applications Development
+          </span>
+          <span className="bg-gray-800 text-gray-300 text-sm px-4 py-2 rounded-full">
+            Machine Learning
           </span>
         </div>
       </div>
