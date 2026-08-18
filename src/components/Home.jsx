@@ -5,11 +5,14 @@ import {
   MoveRight
 } from 'lucide-react';
 
-const HeroIcon = (Icon) => (
-  <div className="flex h-12 w-12 items-center justify-center rounded-full bg-gray-200 text-gray-700">
-    <Icon className="h-6 w-6" />
-  </div>
-);
+const HeroIcon = ({ Icon }) => {
+  if (!Icon) return null;
+  return (
+    <div className="flex h-12 w-12 items-center justify-center rounded-full bg-gray-200 text-gray-700">
+      <Icon className="h-6 w-6" />
+    </div>
+  );
+};
 
 const Home = () => {
   return (
